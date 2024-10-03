@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovellServicesLogin</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <form method= "post" action="#" enctype="multipart/form-data">
+      
+        <label for="user"> Username</label><br>
+        <input type="text" name="username" id="user" required><br>
+        <label for="pass"> Password</label><br>
+        <input type="password" name="password" id="pass"><br>
+        <label for="city"> City of Employment</label><br>
+        <input type="text" name="employment" id="city"><br>
+        <label for="server">Web Server</label>
+        <select id="server">
+            <option value="">--Choose a server--</option>
+            <option value="sirv">Sirv</option>
+            <option value="comp">Comp</option>
+            <option value="turf">Turf</option>
+        </select>
+        <br>
+
+        
+        
+    
+            <br><label>Please specify your role</label><br>
+            <input type="radio" name="role" value="admin" id="ad" checked>
+            <label for="ad">Admin</label><br>
+            <input type="radio" name="role" value="engineer" id="eng">
+            <label for="eng">Engineer</label><br>
+            <input type="radio" name="role" value="manager" id="mng">
+            <label for="mng">Manager</label><br>
+            <input type="radio" name="role" value="guest" id="gst">
+            <label for="gst">Guest</label><br>
+        
+            <br><label>Single Sign-on to the following</label><br>
+        <input type="checkbox" name="mail" value="following" id="mail" checked>
+        <label for="mail">Mail</label><br>
+        <input type="checkbox" name="payroll" value="following" id="payr" checked>
+        <label for="payr">Payroll</label><br>
+        <input type="checkbox" name="selfservice" value="following" id="selfs" checked>
+        <label for="selfs">Self-Service</label><br>
+
+        
+        <br><input type="submit" name="Log" value="Login">
+        <input type="reset" name="res" value="Reset">
+
+</form>
+   
+</body>
+</html>
